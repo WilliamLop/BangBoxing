@@ -223,3 +223,133 @@ nav > .iconos {
 }
 
 
+.container{
+    width: 100%;
+    background-color: rgb(228, 228, 227);
+    margin: 10px;
+}
+
+.imagenacerca{
+    text-align: center;
+}
+
+.imagenacerca > img{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: -310px;
+    border-radius: 10px;
+}
+    
+    @media (max-width:650px){
+        .container{
+            margin: 0;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        section > .imagenacerca{
+            width: 50%;
+        }
+
+        .imagenacerca > img{
+            width: 90%;
+            margin-left: -10px;
+        }
+
+        section > .desc{
+            width: 50%;
+            margin-left: 1px;
+        }
+
+        .desc > p{
+            font-size: 13px;
+        }
+
+    } 
+
+.container > section{
+    display: flex;
+    align-items: center;
+}
+
+.desc{
+    font-size: 1rem;
+    margin-left: -210px;
+
+}
+
+.container > h2{
+    max-width: 100%;
+    padding-bottom: 20px;
+    background-color: #F0EFEB;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.containersections{
+    background-color: #16161800;
+    text-align: center;
+}
+
+.containers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    line-height: 2;
+    margin-top: 20px;
+    
+}
+
+
+.containers section{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #d9dee3;
+    box-shadow: 1px 1px 10px 1px  rgb(186, 39, 6);
+    margin: 10px;
+
+}
+
+.contenedor-element > img{
+    width: 60%;
+    border-radius: 5px;
+}
+
+@media (max-width:650px){
+    .containers{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .containers section {
+        width: 60%;
+        box-shadow: 1px 1px 10px 1px  rgb(186, 39, 6);
+
+    }
+}
+
+.btn{
+    width: 50%;
+    padding: 1rem;
+    margin: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E84033;
+    font-size: 1rem;
+    color: white;
+
+}
+
+.containersections > h2{
+    max-width: 100%;
+    padding-bottom: 20px;
+    background-color: #F0EFEB;
+    text-align: center;
+    padding: 10px;
+}
