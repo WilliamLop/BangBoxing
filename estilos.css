@@ -234,7 +234,7 @@ nav > .iconos {
 }
 
 .imagenacerca > img{
-    width: 60%;
+    max-width: 60%;
     margin-top: 20px;
     margin-left: -310px;
     border-radius: 10px;
@@ -243,7 +243,7 @@ nav > .iconos {
     @media (max-width:650px){
         .container{
             margin: 0;
-            width: 100%;
+            /* width: 100%; */
             margin-bottom: 10px;
         }
 
@@ -252,7 +252,7 @@ nav > .iconos {
         }
 
         .imagenacerca > img{
-            width: 90%;
+            max-width: 90%;
             margin-left: -10px;
         }
 
@@ -323,14 +323,17 @@ nav > .iconos {
     .containers{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        /* width: 100%; */
         margin-top: 20px;
     }
 
     .containers section {
-        width: 60%;
+        /* width: 60%; */
         box-shadow: 1px 1px 10px 1px  rgb(186, 39, 6);
 
+    }
+    .contenedor-element > img{
+        max-width: 100%;
     }
 }
 
